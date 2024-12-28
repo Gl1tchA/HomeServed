@@ -1,0 +1,151 @@
+/* SERVICES */
+
+.hero {
+    background-image: url(../image/services.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.466); 
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+h2 {
+    font-weight: 270;
+    font-style: normal;
+    font-size: 42px;
+    letter-spacing: .04em;
+    line-height: 1.2em;
+    text-transform: none;
+}
+
+.main-content {
+    padding-top: 60px;
+    width: 50%; 
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+
+/* Para sa service items */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    position: relative;
+    display: block;
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item.half-width {
+    width: 97%;
+    height: 600px;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*  Hidden Area */
+.collapsible {
+    display: none; /* Start hidden */
+    background-color: #f9f9f9;
+    padding: 60px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+.form-title{
+    text-align: center;
+}
+.form-layout{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.back-button{
+    width: 1.5rem;
+}
+
+form,label, input, .service-inquiry{
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+select, input{
+    font-size: 1.25rem;
+    width: 50rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+.disclaimer{
+    color: gray;
+}
+.address-input{
+    font-size: 1em;
+    color: gray;
+}
+#map {
+    height: 400px; /* Set map height */
+    width: 50rem;
+  }
+  #address {
+    margin-top: 10px;
+  }
+  .form-row {
+    display: none; /* Initially hidden */
+  }

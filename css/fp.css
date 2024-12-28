@@ -1,0 +1,17 @@
+.collapsible {
+  display: none; /* Hidden by default */
+  margin-top: 20px;
+}
+
+.collapsible.active {
+  display: block; /* Show when active */
+}
+
+.txt_field {
+  margin-bottom: 15px;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 10px;
+}
